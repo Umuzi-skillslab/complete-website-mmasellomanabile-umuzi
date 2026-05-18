@@ -1,0 +1,29 @@
+Initial thoughts: 
+
+Very basic html, limited errors. As per instructions. I ran all the html pages (index, contact, about and projects) on w3c validator. 
+for the html pages, the validator noted that the lang attribute was to be added. This was a positive, in my opinion as I has already made note of this. Secondly, the validator found an error noting that the "img" tag did not include an alt attribute, which would describe the image itself. This is important in the case the image does not load. 
+
+I have noticed that there is a div element with a class name "header" however, there is no "header" tag in the body. This has been added. 
+
+#Fixes implemented:
+1. index.html
+* lang attribute
+* Nav tag
+* Elements of the navigation, with links to other pages. 
+*header tag, in the body 
+* added a main tag
+*added footer tag
+* removed the footer div from inside the main section 
+* added alt on the img tag for description. 
+*added the meta tags in the head element
+
+2. about.html
+* lang attribute
+* Nav tag
+* Elements of the navigation, with links to other pages. 
+*header tag, in the body 
+* added a main tag
+*added footer tag
+* removed the footer div from inside the main section 
+* added alt on the img tag for description. 
+*added the meta tags in the head element
