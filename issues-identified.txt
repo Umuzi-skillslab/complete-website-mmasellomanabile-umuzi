@@ -5,6 +5,8 @@ for the html pages, the validator noted that the lang attribute was to be added.
 
 I have noticed that there is a div element with a class name "header" however, there is no "header" tag in the body. This has been added. 
 
+I have added an "Images" folder to the project as it was not initially included. 
+
 #Fixes implemented:
 1. index.html
 * lang attribute
@@ -27,3 +29,18 @@ I have noticed that there is a div element with a class name "header" however, t
 * removed the footer div from inside the main section 
 * added alt on the img tag for description. 
 *added the meta tags in the head element
+
+3. project.html
+* made the same structural changes as in the index and about pages. 
+* added a "section" tag
+*I have replaced the div elements with article tags
+* I have added an ID for all the article elements. 
+
+4. contact.html
+* made the same structural changes as in the index, project and about pages. 
+* added labels to the form's input areas 
+* added more input fields
+* added validation for the email address and name (required)
+*added min length and max length as validators on tel
+
+
