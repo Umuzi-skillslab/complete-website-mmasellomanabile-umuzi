@@ -1,4 +1,4 @@
-Initial thoughts: 
+Issues identified: 
 
 Very basic html, limited errors. As per instructions. I ran all the html pages (index, contact, about and projects) on w3c validator. 
 for the html pages, the validator noted that the lang attribute was to be added. This was a positive, in my opinion as I has already made note of this. Secondly, the validator found an error noting that the "img" tag did not include an alt attribute, which would describe the image itself. This is important in the case the image does not load. 
@@ -39,8 +39,11 @@ I have added an "Images" folder to the project as it was not initially included.
 4. contact.html
 * made the same structural changes as in the index, project and about pages. 
 * added labels to the form's input areas 
-* added more input fields
+* added an input field with a radio button
+* added an input field with a check box
 * added validation for the email address and name (required)
-*added min length and max length as validators on tel
+*added min length and max length as validators on tel.
+
+- I have included an images folder and sourced a logo, hero image and project examples. 
 
 
