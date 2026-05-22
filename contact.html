@@ -1,30 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="header">
+    <header>
+        <div class="header">
         <h1>Contact Me</h1>
-    </div>
+        <img src="images/logo.png" alt="logo" width="120">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <main>
     
     <div>
         <h2>Get In Touch</h2>
         
         <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
             
-            <!-- Missing: labels, more input types, validation -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
             
-            <button>Send</button>
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="contact number" minlength="10" maxlength="10">
+                      
+            <label>Preferred Contact Method:</label>
+            
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-email" name="contact-method" value="email">
+            
+            <label for="contact-phone">Phone</label>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+             <br>       
+            <label for="message">Message</label>
+            <textarea id="message" name="message"  placeholder="Exter your message"></textarea>
+            <br>
+            <label for="marketing">Opt me in for offers!</label>
+            <input type="checkbox" id="marketing" name="marketing" >
+           
+
+            <br><br>
+            <button type="submit">Send</button>
         </form>
     </div>
+    </main>    
     
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+    <br><br>
+    <footer>    
+        <div class="footer">
+            
+            <img src="images/logo.png" alt="logo" width="60">
+            <p>Mobile &#9742;: <a href="tel:+27 79 111 1111"></a>+27 79 111 1111</p>
+            <p>E-mail &#9993;: <a href="email:mmasellok2@gmail.com"></a>mmasellok2@gmail.com</p>
+            <p>&copy; Mmasello Manabile, 2026</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,49 @@
+Issues identified: 
+
+Very basic html, limited errors. As per instructions. I ran all the html pages (index, contact, about and projects) on w3c validator. 
+for the html pages, the validator noted that the lang attribute was to be added. This was a positive, in my opinion as I has already made note of this. Secondly, the validator found an error noting that the "img" tag did not include an alt attribute, which would describe the image itself. This is important in the case the image does not load. 
+
+I have noticed that there is a div element with a class name "header" however, there is no "header" tag in the body. This has been added. 
+
+I have added an "Images" folder to the project as it was not initially included. 
+
+#Fixes implemented:
+1. index.html
+* lang attribute
+* Nav tag
+* Elements of the navigation, with links to other pages. 
+*header tag, in the body 
+* added a main tag
+*added footer tag
+* removed the footer div from inside the main section 
+* added alt on the img tag for description. 
+*added the meta tags in the head element
+
+2. about.html
+* lang attribute
+* Nav tag
+* Elements of the navigation, with links to other pages. 
+*header tag, in the body 
+* added a main tag
+*added footer tag
+* removed the footer div from inside the main section 
+* added alt on the img tag for description. 
+*added the meta tags in the head element
+
+3. project.html
+* made the same structural changes as in the index and about pages. 
+* added a "section" tag
+*I have replaced the div elements with article tags
+* I have added an ID for all the article elements. 
+
+4. contact.html
+* made the same structural changes as in the index, project and about pages. 
+* added labels to the form's input areas 
+* added an input field with a radio button
+* added an input field with a check box
+* added validation for the email address and name (required)
+*added min length and max length as validators on tel.
+
+- I have included an images folder and sourced a logo, hero image and project examples. 
+
+
